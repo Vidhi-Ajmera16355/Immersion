@@ -12,6 +12,7 @@ public class q1 {
 		int[] arr = new int[n];
 		for(int i=0;i<n;i++) arr[i]=sc.nextInt();
 //		System.out.println(duplicate1(arr));
+		sc.close();
 		duplicate1(arr);
 		}
 	public static void duplicate1(int[] nums) { 
