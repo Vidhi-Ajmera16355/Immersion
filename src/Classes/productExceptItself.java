@@ -7,9 +7,7 @@ public class productExceptItself {
 		productExceptSelf(arr);
 		
 	}
-    public static void productExceptSelf(int[] nums) {
-        int st = 0;
-        int end=0;
+    public static void productExceptSelf(int[] nums){ 
         int[] left = new int[nums.length];
         int[] right = new int[nums.length];
         int[] ans = new int[nums.length]; 
