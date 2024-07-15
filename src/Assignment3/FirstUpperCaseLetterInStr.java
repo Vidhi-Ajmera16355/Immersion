@@ -6,7 +6,6 @@ public class FirstUpperCaseLetterInStr{
 		String str = sc.next();
 		System.out.println(answer(str));
 	}
-
 	private static char answer(String str){
 		if(str.length()==0)
 			return 0;

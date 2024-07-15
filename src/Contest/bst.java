@@ -1,6 +1,7 @@
+package Contest;
 import java.util.*;
 
-public class Main{
+public class bst{
     /**
      * 
      * @param root      Root Node
@@ -30,7 +31,7 @@ public class Main{
         n = sc.nextInt();
         k = sc.nextInt();
         int a[] = new int[n];
-        // read values
+
         for(int i=0;i<n;i++){
             a[i] = sc.nextInt();
         }
