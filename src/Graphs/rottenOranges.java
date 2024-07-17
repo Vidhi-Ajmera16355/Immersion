@@ -9,7 +9,7 @@ public class rottenOranges {
 		int rot=orangeRotting(arr);
 		System.out.println(rot);
 	}
-
+// where the rotten oranges present add them first 
 	private static int orangeRotting(int[][] arr) {
 		if(arr==null || arr.length==0) return 0;
 		int rows = arr.length;
