@@ -11,10 +11,10 @@ public class Matrix_Traversal {
         };
         int rows = mat.length;
         int cols = mat[0].length;
-        // boolean[][] visited = new boolean[rows][cols];
-        // dfs_mat(mat, rows, cols, rows - 1, cols - 1, visited);
+         boolean[][] visited = new boolean[rows][cols];
+         dfs_mat(mat, rows, cols, rows - 1, cols - 1, visited);
         // System.out.println();
-        System.out.println(complete_bfs(mat, rows, cols));
+//        System.out.println(complete_bfs(mat, rows, cols));
     }
 
     public static void dfs_mat(int[][] mat, int rows, int cols, int x, int y, boolean[][] visited) {

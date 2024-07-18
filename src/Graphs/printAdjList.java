@@ -3,8 +3,7 @@ import java.util.*;
 public class printAdjList {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
 	}  
 	    public static List<List<Integer>> printGraph(int V, int edges[][]) {
 	        List<List<Integer>> ans = new ArrayList<>();

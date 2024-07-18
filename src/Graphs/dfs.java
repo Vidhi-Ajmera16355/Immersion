@@ -47,4 +47,15 @@ public class dfs {
             }
         }
     }
+    public void dfsTop(int node, boolean[] vis, ArrayList<ArrayList<Integer>> adj, ArrayList<Integer> ls,Stack<Integer> st) {
+        vis[node] = true;
+        ls.add(node);
+        
+        for (Integer it : adj.get(node)) {
+            if (!vis[it]) {
+                dfsTop(it, vis, adj, ls,st);
+            }
+        }
+        st.push(node);
+    }
 }
